@@ -22,7 +22,6 @@ class App extends Component {
   }
   
   addNewProject() {
-    console.log("WTFFF");
     var self = this;
     axios.post('/insert',
       querystring.stringify({
@@ -45,7 +44,6 @@ class App extends Component {
   }
 
   getAllProjects() {
-    console.log("updating");
     var self = this;
     axios.get('/getAll')
     .then(function(response) {
