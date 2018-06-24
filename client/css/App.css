@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  background-color: #f4f4f2;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.categories {
+  display: flex;
+  background-color: #61a364;
+}
+
+.category {
+  flex: 1;
+}
+
+.projects-container {
+  display: flex;
+}
+
+.projectlist {
+  flex: 1;
+}
+
+.project {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+.project.title {
+  background-color: #61a364;  
+}
+
+.addDialog{
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the top of the page */
+    left: 0;
+    margin:0.5rem;
+    padding:0.5rem;
+    background-color: #fff
+}
